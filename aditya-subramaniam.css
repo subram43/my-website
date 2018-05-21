@@ -1,0 +1,16 @@
+img {
+	display: block;
+	width: inherit;
+	height: inherit;
+}
+
+body {
+	margin: 0;
+	font-family: times new roman;
+}
+
+table {
+	table-layout: fixed;
+	width: 100%;
+	border-collapse: collapse;
+}
