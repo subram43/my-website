@@ -1,3 +1,5 @@
+
+
 img {
 	display: block;
 	height: inherit;
@@ -6,12 +8,13 @@ img {
 a {
 	text-decoration: none;
 	padding-right: 3%;
+	color: black;
 
 }
 
 body {
 	margin: 0;
-	font-family: times new roman;
+	font-family: comic sans ms;
 	font-size: 18pt;
 }
 
@@ -26,6 +29,7 @@ table {
 	width: 100%;
 	position: fixed;
 	transition: top 0.3s;
+	background: silver;
 	z-index: 4;
 }
 
@@ -37,10 +41,24 @@ table {
 
 .textOverGoldImage {
 	position: absolute;
-	top: 60%;
+	top: 55%;
 	left: 50%;
 	transform: translate(-50%, -50%);
-	font-family: times new roman; 
+	font-family: comic sans ms; 
 	color: white;
-	font-size: 55pt; 
+	font-size: 45pt; 
 }
+
+
+.textOverCell {
+	position: absolute;
+	left: 50%;
+	margin-left: 15%
+	margin-right: 15%;
+	transform: translate(-50%, -50%);
+	font-family: comic sans ms; 
+	color: black;
+	font-size: 20pt; 
+}
+
+
