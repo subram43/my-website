@@ -1,5 +1,4 @@
 
-
 img {
 	display: block;
 	height: inherit;
@@ -9,7 +8,6 @@ a {
 	text-decoration: none;
 	padding-right: 3%;
 	color: black;
-
 }
 
 body {
@@ -31,6 +29,10 @@ table {
 	transition: top 0.3s;
 	background: silver;
 	z-index: 4;
+}
+
+#bottomNavigation {
+	background-color: silver;
 }
 
 .logo {
@@ -60,5 +62,36 @@ table {
 	color: black;
 	font-size: 20pt; 
 }
+
+.bottomNavigationHeading {
+	vertical-align: 150px;
+	padding-right: 8%;
+	pointer-events: none;
+	/*margin-left: 30%;*/
+
+}
+
+.firstItem {
+	vertical-align: 150px;
+	padding-right: 8%;
+	padding-left: 30%;
+	pointer-events: none;
+}
+
+.firstLink {
+	padding-right: 8%;
+	padding-left: 30%;
+}
+
+.bottomNavigationLinks {
+	padding-right: 8%;
+}
+
+
+
+
+
+
+
 
 
