@@ -33,6 +33,7 @@ table {
 
 #bottomNavigation {
 	background-color: silver;
+	vertical-align: top;
 }
 
 .logo {
@@ -64,29 +65,32 @@ table {
 }
 
 .bottomNavigationHeading {
-	vertical-align: 150px;
-	padding-right: 8%;
+	padding-right: 7%;
 	pointer-events: none;
-	/*margin-left: 30%;*/
-
 }
 
 .firstItem {
-	vertical-align: 150px;
-	padding-right: 8%;
-	padding-left: 30%;
+	top: 10%;
+	padding-left: 35%;
+	padding-right: 7%;
 	pointer-events: none;
 }
 
+.bottomNavigationLink {
+	font-size: 12pt;
+}
+
 .firstLink {
-	padding-right: 8%;
-	padding-left: 30%;
+	padding-left: 35%;
+	padding-right: 10%;
+	font-size: 12pt;
+	
 }
 
-.bottomNavigationLinks {
-	padding-right: 8%;
+.bottomNavigationItems {
+	margin-left: 35%;
+	width:50%;
 }
-
 
 
 
