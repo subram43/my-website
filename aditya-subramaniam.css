@@ -72,6 +72,11 @@ table {
 	font-size: 20pt; 
 }
 
+.subpageParagraphs {
+	margin-left: 3%;
+	margin-right: 3%
+}
+
 /*BOTTOM*/
 
 #bottomNavigation {
