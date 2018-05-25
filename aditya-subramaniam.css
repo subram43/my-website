@@ -23,6 +23,8 @@ table {
 	vertical-align: middle;
 }
 
+/*TOP*/
+
 #scrollbar {
 	width: 100%;
 	position: fixed;
@@ -31,20 +33,22 @@ table {
 	z-index: 4;
 }
 
-#bottomNavigation {
-	background-color: silver;
-	vertical-align: top;
+.headingTable {
+	margin-left: 2%;
+	vertical-align: middle;
+	width: 97%;
 }
 
 .logo {
 	height: 20px;
 	width: 20px;
-	margin-left: 1%;
 }
 
-.myLogo {
-	padding-right: auto;
+.logoCell {
+	width: 1.5%;
 }
+
+/* BODY */
 
 .textOverGoldImage {
 	position: absolute;
@@ -68,32 +72,21 @@ table {
 	font-size: 20pt; 
 }
 
-.bottomNavigationHeading {
-	padding-right: 7%;
-	pointer-events: none;
-}
+/*BOTTOM*/
 
-.firstItem {
-	top: 10%;
-	padding-left: 35%;
-	padding-right: 7%;
-	pointer-events: none;
+#bottomNavigation {
+	background-color: silver;
+	vertical-align: middle;
 }
 
 .bottomNavigationLink {
 	font-size: 12pt;
 }
 
-.firstLink {
-	padding-left: 35%;
-	padding-right: 10%;
-	font-size: 12pt;
-	
-}
 
 .bottomNavigationItems {
-	margin-left: 35%;
-	width:50%;
+	margin-left: 13%;
+	width:75%;
 }
 
 
