@@ -52,7 +52,7 @@ table {
 
 .textOverGoldImage {
 	position: absolute;
-	top: 55%;
+	top: 65%;
 	left: 50%;
 	transform: translate(-50%, -50%);
 	font-family: comic sans ms; 
@@ -74,7 +74,13 @@ table {
 
 .subpageParagraphs {
 	margin-left: 3%;
-	margin-right: 3%
+	margin-right: 3%;
+}
+
+.photo {
+	height: 10%;
+	width: 15%;
+	float: right;
 }
 
 /*BOTTOM*/
