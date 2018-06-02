@@ -14,6 +14,8 @@ body {
 	margin: 0;
 	font-family: comic sans ms;
 	font-size: 18pt;
+
+	min-width: 400px;
 }
 
 table {
@@ -23,10 +25,17 @@ table {
 	vertical-align: middle;
 }
 
+td.background {
+	height: 30%;
+	width: 30%;
+}
+
 /*TOP*/
+
 
 #scrollbar {
 	width: 100%;
+	min-width: 1000px;
 	position: fixed;
 	transition: top 0.3s;
 	background: silver;
@@ -82,6 +91,22 @@ table {
 	width: 15%;
 	float: right;
 }
+
+
+img.vacationPhoto {
+	margin-left: 10%;
+	float: left;
+	height: 15%;
+	width: 15%;
+}
+
+img.websitePhoto {
+	margin-left: 10%;
+	float: left;
+	height: 19%;
+	width: 55%;
+}
+
 
 /*BOTTOM*/
 
