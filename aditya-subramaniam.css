@@ -30,6 +30,10 @@ td.background {
 	width: 30%;
 }
 
+div {
+	float: left;
+}
+
 /*TOP*/
 
 
@@ -66,7 +70,7 @@ td.background {
 	transform: translate(-50%, -50%);
 	font-family: comic sans ms; 
 	color: white;
-	font-size: 45pt; 
+	font-size: 45pt;
 }
 
 
@@ -86,17 +90,27 @@ td.background {
 	margin-right: 10%;
 }
 
-.photo {
+.photoRight {
 	height: 10%;
 	width: 15%;
 	float: right;
+	margin-right: 10.5%;
+	margin-left: 1%;
+}
+
+.photoLeft {
+	height: 10%;
+	width: 15%;
+	float: left;
+	margin-right: 1%;
+	margin-left: 10%;
 }
 
 
 img.vacationPhoto {
 	margin-left: 10%;
 	float: left;
-	height: 15%;
+	height: 18%;
 	width: 15%;
 }
 
@@ -105,6 +119,14 @@ img.websitePhoto {
 	float: left;
 	height: 19%;
 	width: 55%;
+}
+
+a.button {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 
