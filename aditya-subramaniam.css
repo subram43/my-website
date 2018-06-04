@@ -63,10 +63,10 @@ div {
 
 /* BODY */
 
+
 .textOverGoldImage {
 	position: absolute;
-	top: 65%;
-	left: 50%;
+	text-align: center;
 	transform: translate(-50%, -50%);
 	font-family: comic sans ms; 
 	color: white;
