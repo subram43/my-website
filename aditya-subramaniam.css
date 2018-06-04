@@ -15,7 +15,7 @@ body {
 	font-family: comic sans ms;
 	font-size: 18pt;
 
-	min-width: 400px;
+	min-width: 1000px;
 }
 
 table {
@@ -49,7 +49,7 @@ div {
 .headingTable {
 	margin-left: 2%;
 	vertical-align: middle;
-	width: 97%;
+	width: 96%;
 }
 
 .logo {
@@ -58,7 +58,7 @@ div {
 }
 
 .logoCell {
-	width: 1.5%;
+	width: 2%;
 }
 
 /* BODY */
