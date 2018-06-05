@@ -12,8 +12,8 @@ a {
 
 body {
 	margin: 0;
-	font-family: comic sans ms;
-	font-size: 18pt;
+	font-family: arial;
+	font-size: 20pt;
 
 	min-width: 1000px;
 }
@@ -68,7 +68,7 @@ div {
 	position: absolute;
 	text-align: center;
 	transform: translate(-50%, -50%);
-	font-family: comic sans ms; 
+	font-family: arial; 
 	color: white;
 	font-size: 45pt;
 }
@@ -80,7 +80,7 @@ div {
 	margin-left: 15%
 	margin-right: 15%;
 	transform: translate(-50%, -50%);
-	font-family: comic sans ms; 
+	font-family: arial; 
 	color: black;
 	font-size: 20pt; 
 }
